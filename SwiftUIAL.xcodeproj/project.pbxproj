@@ -11,6 +11,7 @@
 		744EEC262A071360009BEF5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744EEC252A071360009BEF5F /* ContentView.swift */; };
 		744EEC282A071362009BEF5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 744EEC272A071362009BEF5F /* Assets.xcassets */; };
 		744EEC2B2A071362009BEF5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 744EEC2A2A071362009BEF5F /* Preview Assets.xcassets */; };
+		744EEC322A071563009BEF5F /* ViewModifierBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744EEC312A071563009BEF5F /* ViewModifierBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		744EEC252A071360009BEF5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		744EEC272A071362009BEF5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		744EEC2A2A071362009BEF5F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		744EEC312A071563009BEF5F /* ViewModifierBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				744EEC252A071360009BEF5F /* ContentView.swift */,
 				744EEC272A071362009BEF5F /* Assets.xcassets */,
 				744EEC292A071362009BEF5F /* Preview Content */,
+				744EEC312A071563009BEF5F /* ViewModifierBootcamp.swift */,
 			);
 			path = SwiftUIAL;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				744EEC322A071563009BEF5F /* ViewModifierBootcamp.swift in Sources */,
 				744EEC262A071360009BEF5F /* ContentView.swift in Sources */,
 				744EEC242A071360009BEF5F /* SwiftUIALApp.swift in Sources */,
 			);
