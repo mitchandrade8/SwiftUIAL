@@ -13,6 +13,7 @@
 		744EEC2B2A071362009BEF5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 744EEC2A2A071362009BEF5F /* Preview Assets.xcassets */; };
 		744EEC322A071563009BEF5F /* ViewModifierBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744EEC312A071563009BEF5F /* ViewModifierBootcamp.swift */; };
 		744EEC342A071AC3009BEF5F /* ButtonStyleBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744EEC332A071AC3009BEF5F /* ButtonStyleBootcamp.swift */; };
+		744EEC362A084CD9009BEF5F /* AnyTransitionBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744EEC352A084CD9009BEF5F /* AnyTransitionBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		744EEC2A2A071362009BEF5F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		744EEC312A071563009BEF5F /* ViewModifierBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierBootcamp.swift; sourceTree = "<group>"; };
 		744EEC332A071AC3009BEF5F /* ButtonStyleBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleBootcamp.swift; sourceTree = "<group>"; };
+		744EEC352A084CD9009BEF5F /* AnyTransitionBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyTransitionBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				744EEC252A071360009BEF5F /* ContentView.swift */,
 				744EEC312A071563009BEF5F /* ViewModifierBootcamp.swift */,
 				744EEC332A071AC3009BEF5F /* ButtonStyleBootcamp.swift */,
+				744EEC352A084CD9009BEF5F /* AnyTransitionBootcamp.swift */,
 				744EEC272A071362009BEF5F /* Assets.xcassets */,
 				744EEC292A071362009BEF5F /* Preview Content */,
 			);
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				744EEC362A084CD9009BEF5F /* AnyTransitionBootcamp.swift in Sources */,
 				744EEC322A071563009BEF5F /* ViewModifierBootcamp.swift in Sources */,
 				744EEC262A071360009BEF5F /* ContentView.swift in Sources */,
 				744EEC342A071AC3009BEF5F /* ButtonStyleBootcamp.swift in Sources */,
