@@ -16,16 +16,16 @@ struct MatchedGeometryEffectBootcamp: View {
         VStack {
             if !isClicked {
                 RoundedRectangle(cornerRadius: 25.0)
-                    .frame(width: 100, height: 100)
                     .matchedGeometryEffect(id: "rectangle", in: namespace)
+                    .frame(width: 100, height: 100)
             }
             
             Spacer()
             
             if isClicked {
                 RoundedRectangle(cornerRadius: 25.0)
-                    .frame(width: 100, height: 100)
                     .matchedGeometryEffect(id: "rectangle", in: namespace)
+                    .frame(width: 300, height: 200)
             }
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
@@ -40,6 +40,35 @@ struct MatchedGeometryEffectBootcamp: View {
 
 struct MatchedGeometryEffectBootcamp_Previews: PreviewProvider {
     static var previews: some View {
-        MatchedGeometryEffectBootcamp()
+        MatchedGeometryEffectExample2()
+    }
+}
+
+struct MatchedGeometryEffectExample2: View {
+    
+    let categories: [String] = ["Home", "Popular", "Saved"]
+    @State private var selected: String = ""
+    
+    var body: some View {
+        HStack {
+            ForEach(categories, id: \.self) { category in
+                ZStack {
+                    if selected == category {
+                        RoundedRectangle(cornerRadius: 10)
+                            .fill(Color.purple.opacity(0.45))
+                    }
+                    
+                    Text(category)
+                }
+                .frame(maxWidth: .infinity)
+                .frame(height: 55)
+                .onTapGesture {
+                    withAnimation(.spring()) {
+                        selected = category
+                    }
+                }
+            }
+        }
+        .padding()
     }
 }
