@@ -22,6 +22,7 @@
 		745110862A0AC8C1004626AD /* ViewBuilderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745110852A0AC8C1004626AD /* ViewBuilderBootcamp.swift */; };
 		745110882A0B01B0004626AD /* PreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745110872A0B01B0004626AD /* PreferenceKeyBootcamp.swift */; };
 		7451108B2A0B05C5004626AD /* GeometryPreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7451108A2A0B05C5004626AD /* GeometryPreferenceKeyBootcamp.swift */; };
+		7451108D2A0C295B004626AD /* ScrollViewOffsetPreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7451108C2A0C295B004626AD /* ScrollViewOffsetPreferenceKeyBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		745110852A0AC8C1004626AD /* ViewBuilderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilderBootcamp.swift; sourceTree = "<group>"; };
 		745110872A0B01B0004626AD /* PreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
 		7451108A2A0B05C5004626AD /* GeometryPreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryPreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
+		7451108C2A0C295B004626AD /* ScrollViewOffsetPreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewOffsetPreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 			children = (
 				745110872A0B01B0004626AD /* PreferenceKeyBootcamp.swift */,
 				7451108A2A0B05C5004626AD /* GeometryPreferenceKeyBootcamp.swift */,
+				7451108C2A0C295B004626AD /* ScrollViewOffsetPreferenceKeyBootcamp.swift */,
 			);
 			path = PreferenceKeyBootcamp;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 				744EEC342A071AC3009BEF5F /* ButtonStyleBootcamp.swift in Sources */,
 				744EEC602A0AA4A2009BEF5F /* GenericsBootcamp.swift in Sources */,
 				744EEC242A071360009BEF5F /* SwiftUIALApp.swift in Sources */,
+				7451108D2A0C295B004626AD /* ScrollViewOffsetPreferenceKeyBootcamp.swift in Sources */,
 				745110882A0B01B0004626AD /* PreferenceKeyBootcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
