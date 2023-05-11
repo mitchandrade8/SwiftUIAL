@@ -28,6 +28,10 @@
 		745110962A0C4D20004626AD /* TabBarItemsPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745110952A0C4D20004626AD /* TabBarItemsPreferenceKey.swift */; };
 		745110982A0C5035004626AD /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745110972A0C5035004626AD /* TabBarItem.swift */; };
 		7451109B2A0D1AD8004626AD /* AppNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7451109A2A0D1AD8004626AD /* AppNavBarView.swift */; };
+		7451109D2A0D1C54004626AD /* CustomNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7451109C2A0D1C54004626AD /* CustomNavBarView.swift */; };
+		7451109F2A0D25C3004626AD /* CustomNavBarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7451109E2A0D25C3004626AD /* CustomNavBarContainerView.swift */; };
+		745110A12A0D2858004626AD /* CustomNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745110A02A0D2858004626AD /* CustomNavView.swift */; };
+		745110A32A0D2A6D004626AD /* CustomNavLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745110A22A0D2A6D004626AD /* CustomNavLink.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +57,10 @@
 		745110952A0C4D20004626AD /* TabBarItemsPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItemsPreferenceKey.swift; sourceTree = "<group>"; };
 		745110972A0C5035004626AD /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
 		7451109A2A0D1AD8004626AD /* AppNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavBarView.swift; sourceTree = "<group>"; };
+		7451109C2A0D1C54004626AD /* CustomNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarView.swift; sourceTree = "<group>"; };
+		7451109E2A0D25C3004626AD /* CustomNavBarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarContainerView.swift; sourceTree = "<group>"; };
+		745110A02A0D2858004626AD /* CustomNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavView.swift; sourceTree = "<group>"; };
+		745110A22A0D2A6D004626AD /* CustomNavLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavLink.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +146,10 @@
 			isa = PBXGroup;
 			children = (
 				7451109A2A0D1AD8004626AD /* AppNavBarView.swift */,
+				745110A02A0D2858004626AD /* CustomNavView.swift */,
+				7451109C2A0D1C54004626AD /* CustomNavBarView.swift */,
+				7451109E2A0D25C3004626AD /* CustomNavBarContainerView.swift */,
+				745110A22A0D2A6D004626AD /* CustomNavLink.swift */,
 			);
 			path = CustomNavBar;
 			sourceTree = "<group>";
@@ -221,13 +233,17 @@
 				744EEC322A071563009BEF5F /* ViewModifierBootcamp.swift in Sources */,
 				744EEC3E2A09667F009BEF5F /* AnimateableDataBootcamp.swift in Sources */,
 				744EEC3C2A094BA4009BEF5F /* CustomCurvesBootcamp.swift in Sources */,
+				745110A12A0D2858004626AD /* CustomNavView.swift in Sources */,
+				7451109D2A0D1C54004626AD /* CustomNavBarView.swift in Sources */,
 				745110862A0AC8C1004626AD /* ViewBuilderBootcamp.swift in Sources */,
 				7451108B2A0B05C5004626AD /* GeometryPreferenceKeyBootcamp.swift in Sources */,
+				745110A32A0D2A6D004626AD /* CustomNavLink.swift in Sources */,
 				744EEC342A071AC3009BEF5F /* ButtonStyleBootcamp.swift in Sources */,
 				744EEC602A0AA4A2009BEF5F /* GenericsBootcamp.swift in Sources */,
 				745110982A0C5035004626AD /* TabBarItem.swift in Sources */,
 				745110942A0C4322004626AD /* CustomTabBarContainerView.swift in Sources */,
 				744EEC242A071360009BEF5F /* SwiftUIALApp.swift in Sources */,
+				7451109F2A0D25C3004626AD /* CustomNavBarContainerView.swift in Sources */,
 				745110962A0C4D20004626AD /* TabBarItemsPreferenceKey.swift in Sources */,
 				7451108D2A0C295B004626AD /* ScrollViewOffsetPreferenceKeyBootcamp.swift in Sources */,
 				745110882A0B01B0004626AD /* PreferenceKeyBootcamp.swift in Sources */,
