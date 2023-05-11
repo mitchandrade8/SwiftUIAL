@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		744EEC242A071360009BEF5F /* SwiftUIALApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744EEC232A071360009BEF5F /* SwiftUIALApp.swift */; };
-		744EEC262A071360009BEF5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744EEC252A071360009BEF5F /* ContentView.swift */; };
 		744EEC282A071362009BEF5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 744EEC272A071362009BEF5F /* Assets.xcassets */; };
 		744EEC2B2A071362009BEF5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 744EEC2A2A071362009BEF5F /* Preview Assets.xcassets */; };
 		744EEC322A071563009BEF5F /* ViewModifierBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744EEC312A071563009BEF5F /* ViewModifierBootcamp.swift */; };
@@ -25,12 +24,14 @@
 		7451108D2A0C295B004626AD /* ScrollViewOffsetPreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7451108C2A0C295B004626AD /* ScrollViewOffsetPreferenceKeyBootcamp.swift */; };
 		745110902A0C3AF9004626AD /* AppTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7451108F2A0C3AF9004626AD /* AppTabBarView.swift */; };
 		745110922A0C3D37004626AD /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745110912A0C3D37004626AD /* CustomTabBarView.swift */; };
+		745110942A0C4322004626AD /* CustomTabBarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745110932A0C4322004626AD /* CustomTabBarContainerView.swift */; };
+		745110962A0C4D20004626AD /* TabBarItemsPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745110952A0C4D20004626AD /* TabBarItemsPreferenceKey.swift */; };
+		745110982A0C5035004626AD /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745110972A0C5035004626AD /* TabBarItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		744EEC202A071360009BEF5F /* SwiftUIAL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		744EEC232A071360009BEF5F /* SwiftUIALApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIALApp.swift; sourceTree = "<group>"; };
-		744EEC252A071360009BEF5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		744EEC272A071362009BEF5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		744EEC2A2A071362009BEF5F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		744EEC312A071563009BEF5F /* ViewModifierBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierBootcamp.swift; sourceTree = "<group>"; };
@@ -47,6 +48,9 @@
 		7451108C2A0C295B004626AD /* ScrollViewOffsetPreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewOffsetPreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
 		7451108F2A0C3AF9004626AD /* AppTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabBarView.swift; sourceTree = "<group>"; };
 		745110912A0C3D37004626AD /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
+		745110932A0C4322004626AD /* CustomTabBarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarContainerView.swift; sourceTree = "<group>"; };
+		745110952A0C4D20004626AD /* TabBarItemsPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItemsPreferenceKey.swift; sourceTree = "<group>"; };
+		745110972A0C5035004626AD /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +84,6 @@
 			isa = PBXGroup;
 			children = (
 				744EEC232A071360009BEF5F /* SwiftUIALApp.swift */,
-				744EEC252A071360009BEF5F /* ContentView.swift */,
 				744EEC312A071563009BEF5F /* ViewModifierBootcamp.swift */,
 				744EEC332A071AC3009BEF5F /* ButtonStyleBootcamp.swift */,
 				744EEC352A084CD9009BEF5F /* AnyTransitionBootcamp.swift */,
@@ -121,6 +124,9 @@
 			children = (
 				7451108F2A0C3AF9004626AD /* AppTabBarView.swift */,
 				745110912A0C3D37004626AD /* CustomTabBarView.swift */,
+				745110932A0C4322004626AD /* CustomTabBarContainerView.swift */,
+				745110952A0C4D20004626AD /* TabBarItemsPreferenceKey.swift */,
+				745110972A0C5035004626AD /* TabBarItem.swift */,
 			);
 			path = CustomTabBar;
 			sourceTree = "<group>";
@@ -202,13 +208,15 @@
 				744EEC362A084CD9009BEF5F /* AnyTransitionBootcamp.swift in Sources */,
 				744EEC322A071563009BEF5F /* ViewModifierBootcamp.swift in Sources */,
 				744EEC3E2A09667F009BEF5F /* AnimateableDataBootcamp.swift in Sources */,
-				744EEC262A071360009BEF5F /* ContentView.swift in Sources */,
 				744EEC3C2A094BA4009BEF5F /* CustomCurvesBootcamp.swift in Sources */,
 				745110862A0AC8C1004626AD /* ViewBuilderBootcamp.swift in Sources */,
 				7451108B2A0B05C5004626AD /* GeometryPreferenceKeyBootcamp.swift in Sources */,
 				744EEC342A071AC3009BEF5F /* ButtonStyleBootcamp.swift in Sources */,
 				744EEC602A0AA4A2009BEF5F /* GenericsBootcamp.swift in Sources */,
+				745110982A0C5035004626AD /* TabBarItem.swift in Sources */,
+				745110942A0C4322004626AD /* CustomTabBarContainerView.swift in Sources */,
 				744EEC242A071360009BEF5F /* SwiftUIALApp.swift in Sources */,
+				745110962A0C4D20004626AD /* TabBarItemsPreferenceKey.swift in Sources */,
 				7451108D2A0C295B004626AD /* ScrollViewOffsetPreferenceKeyBootcamp.swift in Sources */,
 				745110882A0B01B0004626AD /* PreferenceKeyBootcamp.swift in Sources */,
 			);
