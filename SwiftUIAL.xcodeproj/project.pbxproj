@@ -32,6 +32,7 @@
 		7451109F2A0D25C3004626AD /* CustomNavBarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7451109E2A0D25C3004626AD /* CustomNavBarContainerView.swift */; };
 		745110A12A0D2858004626AD /* CustomNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745110A02A0D2858004626AD /* CustomNavView.swift */; };
 		745110A32A0D2A6D004626AD /* CustomNavLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745110A22A0D2A6D004626AD /* CustomNavLink.swift */; };
+		745110A52A0D2DE3004626AD /* CustomNavBarPreferenceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745110A42A0D2DE3004626AD /* CustomNavBarPreferenceKeys.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +62,7 @@
 		7451109E2A0D25C3004626AD /* CustomNavBarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarContainerView.swift; sourceTree = "<group>"; };
 		745110A02A0D2858004626AD /* CustomNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavView.swift; sourceTree = "<group>"; };
 		745110A22A0D2A6D004626AD /* CustomNavLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavLink.swift; sourceTree = "<group>"; };
+		745110A42A0D2DE3004626AD /* CustomNavBarPreferenceKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarPreferenceKeys.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 				7451109C2A0D1C54004626AD /* CustomNavBarView.swift */,
 				7451109E2A0D25C3004626AD /* CustomNavBarContainerView.swift */,
 				745110A22A0D2A6D004626AD /* CustomNavLink.swift */,
+				745110A42A0D2DE3004626AD /* CustomNavBarPreferenceKeys.swift */,
 			);
 			path = CustomNavBar;
 			sourceTree = "<group>";
@@ -238,6 +241,7 @@
 				745110862A0AC8C1004626AD /* ViewBuilderBootcamp.swift in Sources */,
 				7451108B2A0B05C5004626AD /* GeometryPreferenceKeyBootcamp.swift in Sources */,
 				745110A32A0D2A6D004626AD /* CustomNavLink.swift in Sources */,
+				745110A52A0D2DE3004626AD /* CustomNavBarPreferenceKeys.swift in Sources */,
 				744EEC342A071AC3009BEF5F /* ButtonStyleBootcamp.swift in Sources */,
 				744EEC602A0AA4A2009BEF5F /* GenericsBootcamp.swift in Sources */,
 				745110982A0C5035004626AD /* TabBarItem.swift in Sources */,

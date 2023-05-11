@@ -13,11 +13,14 @@ struct AppNavBarView: View {
             ZStack {
                 Color.orange.ignoresSafeArea()
                 
-                CustomNavLink(destination: Text("Destination")) {
+                CustomNavLink(destination:
+                                Text("Destination")
+                    .customNavigationTitle("3 Point Specialist")
+                ) {
                     Text("Navigate")
                 }
-               
             }
+            .customNavBarItems(title: "Get Buckets", subtitle: "Become consistently elite", backButtonHidden: true)
         }
     }
 }
