@@ -27,6 +27,7 @@
 		745110942A0C4322004626AD /* CustomTabBarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745110932A0C4322004626AD /* CustomTabBarContainerView.swift */; };
 		745110962A0C4D20004626AD /* TabBarItemsPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745110952A0C4D20004626AD /* TabBarItemsPreferenceKey.swift */; };
 		745110982A0C5035004626AD /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745110972A0C5035004626AD /* TabBarItem.swift */; };
+		7451109B2A0D1AD8004626AD /* AppNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7451109A2A0D1AD8004626AD /* AppNavBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		745110932A0C4322004626AD /* CustomTabBarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarContainerView.swift; sourceTree = "<group>"; };
 		745110952A0C4D20004626AD /* TabBarItemsPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItemsPreferenceKey.swift; sourceTree = "<group>"; };
 		745110972A0C5035004626AD /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
+		7451109A2A0D1AD8004626AD /* AppNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 				745110852A0AC8C1004626AD /* ViewBuilderBootcamp.swift */,
 				745110892A0B05A4004626AD /* PreferenceKeyBootcamp */,
 				7451108E2A0C3ADB004626AD /* CustomTabBar */,
+				745110992A0D1AA8004626AD /* CustomNavBar */,
 				744EEC272A071362009BEF5F /* Assets.xcassets */,
 				744EEC292A071362009BEF5F /* Preview Content */,
 			);
@@ -129,6 +132,14 @@
 				745110972A0C5035004626AD /* TabBarItem.swift */,
 			);
 			path = CustomTabBar;
+			sourceTree = "<group>";
+		};
+		745110992A0D1AA8004626AD /* CustomNavBar */ = {
+			isa = PBXGroup;
+			children = (
+				7451109A2A0D1AD8004626AD /* AppNavBarView.swift */,
+			);
+			path = CustomNavBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7451109B2A0D1AD8004626AD /* AppNavBarView.swift in Sources */,
 				744EEC382A09342E009BEF5F /* MatchedGeometryEffectBootcamp.swift in Sources */,
 				744EEC3A2A09415E009BEF5F /* CustomShapesBootcamp.swift in Sources */,
 				745110902A0C3AF9004626AD /* AppTabBarView.swift in Sources */,
