@@ -33,6 +33,7 @@
 		745110A12A0D2858004626AD /* CustomNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745110A02A0D2858004626AD /* CustomNavView.swift */; };
 		745110A32A0D2A6D004626AD /* CustomNavLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745110A22A0D2A6D004626AD /* CustomNavLink.swift */; };
 		745110A52A0D2DE3004626AD /* CustomNavBarPreferenceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745110A42A0D2DE3004626AD /* CustomNavBarPreferenceKeys.swift */; };
+		745110A72A0DA2B1004626AD /* UIViewRepresentableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745110A62A0DA2B1004626AD /* UIViewRepresentableBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +64,7 @@
 		745110A02A0D2858004626AD /* CustomNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavView.swift; sourceTree = "<group>"; };
 		745110A22A0D2A6D004626AD /* CustomNavLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavLink.swift; sourceTree = "<group>"; };
 		745110A42A0D2DE3004626AD /* CustomNavBarPreferenceKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarPreferenceKeys.swift; sourceTree = "<group>"; };
+		745110A62A0DA2B1004626AD /* UIViewRepresentableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewRepresentableBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				745110892A0B05A4004626AD /* PreferenceKeyBootcamp */,
 				7451108E2A0C3ADB004626AD /* CustomTabBar */,
 				745110992A0D1AA8004626AD /* CustomNavBar */,
+				745110A62A0DA2B1004626AD /* UIViewRepresentableBootcamp.swift */,
 				744EEC272A071362009BEF5F /* Assets.xcassets */,
 				744EEC292A071362009BEF5F /* Preview Content */,
 			);
@@ -230,6 +233,7 @@
 				7451109B2A0D1AD8004626AD /* AppNavBarView.swift in Sources */,
 				744EEC382A09342E009BEF5F /* MatchedGeometryEffectBootcamp.swift in Sources */,
 				744EEC3A2A09415E009BEF5F /* CustomShapesBootcamp.swift in Sources */,
+				745110A72A0DA2B1004626AD /* UIViewRepresentableBootcamp.swift in Sources */,
 				745110902A0C3AF9004626AD /* AppTabBarView.swift in Sources */,
 				745110922A0C3D37004626AD /* CustomTabBarView.swift in Sources */,
 				744EEC362A084CD9009BEF5F /* AnyTransitionBootcamp.swift in Sources */,
