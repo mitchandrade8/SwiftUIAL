@@ -34,7 +34,7 @@
 		745110A32A0D2A6D004626AD /* CustomNavLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745110A22A0D2A6D004626AD /* CustomNavLink.swift */; };
 		745110A52A0D2DE3004626AD /* CustomNavBarPreferenceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745110A42A0D2DE3004626AD /* CustomNavBarPreferenceKeys.swift */; };
 		745110A72A0DA2B1004626AD /* UIViewRepresentableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745110A62A0DA2B1004626AD /* UIViewRepresentableBootcamp.swift */; };
-		745110A92A0E982A004626AD /* UIViewControllerRepresentableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745110A82A0E982A004626AD /* UIViewControllerRepresentableBootcamp.swift */; };
+
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,7 +66,7 @@
 		745110A22A0D2A6D004626AD /* CustomNavLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavLink.swift; sourceTree = "<group>"; };
 		745110A42A0D2DE3004626AD /* CustomNavBarPreferenceKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarPreferenceKeys.swift; sourceTree = "<group>"; };
 		745110A62A0DA2B1004626AD /* UIViewRepresentableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewRepresentableBootcamp.swift; sourceTree = "<group>"; };
-		745110A82A0E982A004626AD /* UIViewControllerRepresentableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerRepresentableBootcamp.swift; sourceTree = "<group>"; };
+
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +113,7 @@
 				7451108E2A0C3ADB004626AD /* CustomTabBar */,
 				745110992A0D1AA8004626AD /* CustomNavBar */,
 				745110A62A0DA2B1004626AD /* UIViewRepresentableBootcamp.swift */,
-				745110A82A0E982A004626AD /* UIViewControllerRepresentableBootcamp.swift */,
+n
 				744EEC272A071362009BEF5F /* Assets.xcassets */,
 				744EEC292A071362009BEF5F /* Preview Content */,
 			);
