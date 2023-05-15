@@ -37,6 +37,16 @@
 
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		745110BB2A1298B0004626AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 744EEC182A071360009BEF5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 744EEC1F2A071360009BEF5F;
+			remoteInfo = SwiftUIAL;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		744EEC202A071360009BEF5F /* SwiftUIAL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		744EEC232A071360009BEF5F /* SwiftUIALApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIALApp.swift; sourceTree = "<group>"; };
@@ -77,6 +87,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		745110B42A1298B0004626AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -84,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				744EEC222A071360009BEF5F /* SwiftUIAL */,
+				745110B82A1298B0004626AD /* SwiftUIAL_Tests */,
 				744EEC212A071360009BEF5F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				744EEC202A071360009BEF5F /* SwiftUIAL.app */,
+				745110B72A1298B0004626AD /* SwiftUIAL_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -163,6 +182,24 @@ n
 			path = CustomNavBar;
 			sourceTree = "<group>";
 		};
+		745110AE2A1295B7004626AD /* UnitTestingBootcamp */ = {
+			isa = PBXGroup;
+			children = (
+				745110AF2A1295D6004626AD /* UnitTestingBootcampView.swift */,
+				745110B12A1297E7004626AD /* UnitTestingBootcampViewModel.swift */,
+			);
+			path = UnitTestingBootcamp;
+			sourceTree = "<group>";
+		};
+		745110B82A1298B0004626AD /* SwiftUIAL_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				745110B92A1298B0004626AD /* SwiftUIAL_Tests.swift */,
+				745110C02A1299AF004626AD /* UnitTestingBootcampViewModel_Tests.swift */,
+			);
+			path = SwiftUIAL_Tests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -183,6 +220,24 @@ n
 			productReference = 744EEC202A071360009BEF5F /* SwiftUIAL.app */;
 			productType = "com.apple.product-type.application";
 		};
+		745110B62A1298B0004626AD /* SwiftUIAL_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 745110BD2A1298B0004626AD /* Build configuration list for PBXNativeTarget "SwiftUIAL_Tests" */;
+			buildPhases = (
+				745110B32A1298B0004626AD /* Sources */,
+				745110B42A1298B0004626AD /* Frameworks */,
+				745110B52A1298B0004626AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				745110BC2A1298B0004626AD /* PBXTargetDependency */,
+			);
+			name = SwiftUIAL_Tests;
+			productName = SwiftUIAL_Tests;
+			productReference = 745110B72A1298B0004626AD /* SwiftUIAL_Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,6 +250,10 @@ n
 				TargetAttributes = {
 					744EEC1F2A071360009BEF5F = {
 						CreatedOnToolsVersion = 14.3;
+					};
+					745110B62A1298B0004626AD = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 744EEC1F2A071360009BEF5F;
 					};
 				};
 			};
@@ -212,6 +271,7 @@ n
 			projectRoot = "";
 			targets = (
 				744EEC1F2A071360009BEF5F /* SwiftUIAL */,
+				745110B62A1298B0004626AD /* SwiftUIAL_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -226,6 +286,13 @@ n
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		745110B52A1298B0004626AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -233,8 +300,10 @@ n
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				745110B22A1297E7004626AD /* UnitTestingBootcampViewModel.swift in Sources */,
 				7451109B2A0D1AD8004626AD /* AppNavBarView.swift in Sources */,
 				744EEC382A09342E009BEF5F /* MatchedGeometryEffectBootcamp.swift in Sources */,
+				745110B02A1295D6004626AD /* UnitTestingBootcampView.swift in Sources */,
 				744EEC3A2A09415E009BEF5F /* CustomShapesBootcamp.swift in Sources */,
 				745110A72A0DA2B1004626AD /* UIViewRepresentableBootcamp.swift in Sources */,
 				745110902A0C3AF9004626AD /* AppTabBarView.swift in Sources */,
@@ -254,15 +323,34 @@ n
 				744EEC602A0AA4A2009BEF5F /* GenericsBootcamp.swift in Sources */,
 				745110982A0C5035004626AD /* TabBarItem.swift in Sources */,
 				745110942A0C4322004626AD /* CustomTabBarContainerView.swift in Sources */,
+				745110AD2A1004F8004626AD /* DependencyInjectionBootcamp.swift in Sources */,
 				744EEC242A071360009BEF5F /* SwiftUIALApp.swift in Sources */,
 				7451109F2A0D25C3004626AD /* CustomNavBarContainerView.swift in Sources */,
+				745110AB2A0EAA71004626AD /* ProtocolsBootcamp.swift in Sources */,
 				745110962A0C4D20004626AD /* TabBarItemsPreferenceKey.swift in Sources */,
 				7451108D2A0C295B004626AD /* ScrollViewOffsetPreferenceKeyBootcamp.swift in Sources */,
 				745110882A0B01B0004626AD /* PreferenceKeyBootcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		745110B32A1298B0004626AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				745110C12A1299AF004626AD /* UnitTestingBootcampViewModel_Tests.swift in Sources */,
+				745110BA2A1298B0004626AD /* SwiftUIAL_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		745110BC2A1298B0004626AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 744EEC1F2A071360009BEF5F /* SwiftUIAL */;
+			targetProxy = 745110BB2A1298B0004626AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		744EEC2C2A071362009BEF5F /* Debug */ = {
@@ -437,6 +525,42 @@ n
 			};
 			name = Release;
 		};
+		745110BE2A1298B0004626AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4A45YWS7LC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SwiftUIAL-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUIAL.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftUIAL";
+			};
+			name = Debug;
+		};
+		745110BF2A1298B0004626AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4A45YWS7LC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SwiftUIAL-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUIAL.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftUIAL";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -454,6 +578,15 @@ n
 			buildConfigurations = (
 				744EEC2F2A071362009BEF5F /* Debug */,
 				744EEC302A071362009BEF5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		745110BD2A1298B0004626AD /* Build configuration list for PBXNativeTarget "SwiftUIAL_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				745110BE2A1298B0004626AD /* Debug */,
+				745110BF2A1298B0004626AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
