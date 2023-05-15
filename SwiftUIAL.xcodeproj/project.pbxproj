@@ -34,13 +34,7 @@
 		745110A32A0D2A6D004626AD /* CustomNavLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745110A22A0D2A6D004626AD /* CustomNavLink.swift */; };
 		745110A52A0D2DE3004626AD /* CustomNavBarPreferenceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745110A42A0D2DE3004626AD /* CustomNavBarPreferenceKeys.swift */; };
 		745110A72A0DA2B1004626AD /* UIViewRepresentableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745110A62A0DA2B1004626AD /* UIViewRepresentableBootcamp.swift */; };
-		745110A92A0E982A004626AD /* UIViewControllerRepresentableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745110A82A0E982A004626AD /* UIViewControllerRepresentableBootcamp.swift */; };
-		745110AB2A0EAA71004626AD /* ProtocolsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745110AA2A0EAA71004626AD /* ProtocolsBootcamp.swift */; };
-		745110AD2A1004F8004626AD /* DependencyInjectionBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745110AC2A1004F8004626AD /* DependencyInjectionBootcamp.swift */; };
-		745110B02A1295D6004626AD /* UnitTestingBootcampView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745110AF2A1295D6004626AD /* UnitTestingBootcampView.swift */; };
-		745110B22A1297E7004626AD /* UnitTestingBootcampViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745110B12A1297E7004626AD /* UnitTestingBootcampViewModel.swift */; };
-		745110BA2A1298B0004626AD /* SwiftUIAL_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745110B92A1298B0004626AD /* SwiftUIAL_Tests.swift */; };
-		745110C12A1299AF004626AD /* UnitTestingBootcampViewModel_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745110C02A1299AF004626AD /* UnitTestingBootcampViewModel_Tests.swift */; };
+
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,14 +76,7 @@
 		745110A22A0D2A6D004626AD /* CustomNavLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavLink.swift; sourceTree = "<group>"; };
 		745110A42A0D2DE3004626AD /* CustomNavBarPreferenceKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarPreferenceKeys.swift; sourceTree = "<group>"; };
 		745110A62A0DA2B1004626AD /* UIViewRepresentableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewRepresentableBootcamp.swift; sourceTree = "<group>"; };
-		745110A82A0E982A004626AD /* UIViewControllerRepresentableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerRepresentableBootcamp.swift; sourceTree = "<group>"; };
-		745110AA2A0EAA71004626AD /* ProtocolsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolsBootcamp.swift; sourceTree = "<group>"; };
-		745110AC2A1004F8004626AD /* DependencyInjectionBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjectionBootcamp.swift; sourceTree = "<group>"; };
-		745110AF2A1295D6004626AD /* UnitTestingBootcampView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingBootcampView.swift; sourceTree = "<group>"; };
-		745110B12A1297E7004626AD /* UnitTestingBootcampViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingBootcampViewModel.swift; sourceTree = "<group>"; };
-		745110B72A1298B0004626AD /* SwiftUIAL_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIAL_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		745110B92A1298B0004626AD /* SwiftUIAL_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAL_Tests.swift; sourceTree = "<group>"; };
-		745110C02A1299AF004626AD /* UnitTestingBootcampViewModel_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingBootcampViewModel_Tests.swift; sourceTree = "<group>"; };
+
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,10 +132,7 @@
 				7451108E2A0C3ADB004626AD /* CustomTabBar */,
 				745110992A0D1AA8004626AD /* CustomNavBar */,
 				745110A62A0DA2B1004626AD /* UIViewRepresentableBootcamp.swift */,
-				745110A82A0E982A004626AD /* UIViewControllerRepresentableBootcamp.swift */,
-				745110AA2A0EAA71004626AD /* ProtocolsBootcamp.swift */,
-				745110AC2A1004F8004626AD /* DependencyInjectionBootcamp.swift */,
-				745110AE2A1295B7004626AD /* UnitTestingBootcamp */,
+n
 				744EEC272A071362009BEF5F /* Assets.xcassets */,
 				744EEC292A071362009BEF5F /* Preview Content */,
 			);
